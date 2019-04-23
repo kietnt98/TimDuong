@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TimDuongModelStoreContainer" CdmEntityContainer="TimDuongEntities">
+    <EntitySetMapping Name="Phongs">
+      <EntityTypeMapping TypeName="TimDuongModel.Phong">
+        <MappingFragment StoreEntitySet="Phong">
+          <ScalarProperty Name="ma" ColumnName="ma" />
+          <ScalarProperty Name="tenphong" ColumnName="tenphong" />
+          <ScalarProperty Name="chidan" ColumnName="chidan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Tim" FunctionName="TimDuongModel.Store.Tim" />
+  </EntityContainerMapping>
+</Mapping>

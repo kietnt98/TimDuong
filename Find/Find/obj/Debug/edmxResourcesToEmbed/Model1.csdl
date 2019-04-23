@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TimDuongModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Phong">
+    <Key>
+      <PropertyRef Name="ma" />
+      <PropertyRef Name="tenphong" />
+      <PropertyRef Name="chidan" />
+    </Key>
+    <Property Name="ma" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tenphong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="chidan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TimDuongEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Phongs" EntityType="Self.Phong" />
+    <FunctionImport Name="Tim" ReturnType="Collection(String)">
+      <Parameter Name="tuKhoa" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

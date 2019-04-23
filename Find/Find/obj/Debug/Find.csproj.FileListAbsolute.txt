@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Find\Find\bin\Debug\Find.exe.config
+C:\Users\Admin\source\repos\Find\Find\bin\Debug\Find.exe
+C:\Users\Admin\source\repos\Find\Find\bin\Debug\Find.pdb
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.Form1.resources
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.Properties.Resources.resources
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.exe
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.pdb
+C:\Users\Admin\source\repos\Find\Find\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\Find\Find\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\Find\Find\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\Find\Find\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\Find\Find\obj\Debug\Find.csproj.CopyComplete
